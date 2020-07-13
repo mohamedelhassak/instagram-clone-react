@@ -1,0 +1,42 @@
+.header {
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__image {
+  object-fit: contain;
+  background-color: white;
+  max-width: 50px;
+}
+
+.header__signup {
+}
+
+.header__signup {
+  border-radius: 10px;
+  right: 0;
+}
+
+.header__authImage {
+  max-width: 50px;
+}
+
+.header__loginConataine {
+  right: 0;
+}
+
+.header__signup Input {
+  width: 300px;
+  padding-bottom: 15px;
+}
+Fade Button {
+  width: 300px;
+}
+
+.header__signup Button:hover {
+  background-color: #ddd;
+}

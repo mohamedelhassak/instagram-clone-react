@@ -1,0 +1,19 @@
+.imageupload {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  bottom: 0;
+  background-color: white;
+  border-top: 1px solid lightgray;
+}
+.imageupload Input {
+  width: 100%;
+  padding: 20px;
+}
+.imageupload__progress {
+  width: 100%;
+}
