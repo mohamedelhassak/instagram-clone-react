@@ -1,1 +1,1 @@
-LIVE DEMO : https://cranky-almeida-b15245.netlify.app/
+LIVE DEMO : https://instagram-clone-mh.netlify.app/
