@@ -262,10 +262,13 @@ function App() {
 
       {/* Add post */}
 
+    {user?.displayName?(
       <Button className="app__addpost" onClick={handleopenopenAddpost}>
         Add Post
       </Button>
+    ):(<div></div>)}
       {/* ADD POST MODAL MODAL */}
+      
       <Modal
         aria-labelledby="transition-modal-title"
         aria-describedby="transition-modal-description"
@@ -296,6 +299,8 @@ function App() {
       {posts.map(({ id, post }) => (
         <Post
           key={id}
+          postId={id}
+          user={user}
           imageUrl={post.imageUrl}
           username={post.username}
           caption={post.caption}
